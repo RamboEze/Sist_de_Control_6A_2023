@@ -1,0 +1,12 @@
+<html>
+  <head>
+  <title>Mejores Bandas</title>
+  </head>
+  <body>
+  <table>
+        <tr>
+        <td><strong>Nombre de Banda</strong></td>
+        <td><strong>Cantante</strong></td>
+        <td><strong>Género</strong></td>
+</tr>
+</table>
