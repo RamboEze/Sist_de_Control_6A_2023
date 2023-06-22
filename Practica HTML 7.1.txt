@@ -1,0 +1,58 @@
+<html>
+	<head><title>Rellena tu CV</title></head>
+<body>
+	<h1>Rellena tu CV</h1>
+<form>
+<fieldset>
+<legend>Datos personales</legend>
+
+  <label for="provincia">Provincia</label> <br/>
+  <select id="provincia" name="provincia">
+    <option value="" selected="selected">- selecciona -</option>
+    <option value="01">Bs As</option>
+    <option value="02">Corrientes</option>
+    <option value="03">Salta</option>
+  </select>
+  <br/><br/>
+  <label for="fecha_dia">Fecha de nacimiento</label> <br/>
+  <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+  de
+  <select id="fecha_mes" name="fecha_mes">
+    <option value="1">Enero</option>
+    <option value="2">Febrero</option>
+    <option value="3">Marzo</option>
+    <option value="4">Abril</option>
+    <option value="5">Mayo</option>
+    <option value="6">Junio</option>
+    <option value="7">Julio</option>
+    <option value="8">Agosto</option>
+    <option value="9">Septiembre</option>
+    <option value="10">Octubre</option>
+    <option value="11">Noviembre</option>
+    <option value="12">Diciembre</option>
+  </select>
+  de
+  <input type="text" size="5" maxlength="4" id="fecha_año" name="fecha_año" />
+
+  <br/><br/>
+
+  <label for="temasDeInteres">Temas de interés</label> <br/>
+  <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres">
+    <option value="3105">Administración de bases de datos</option>
+    <option value="3106">Análisis y programación</option>
+    <option value="3107">Arquitectura</option>
+    <option value="3108">Calidad</option>
+    <option value="3109">ERP, CRM, Business Intelligence</option>
+    <option value="3110">0</option>
+    <option value="3111">0</option>
+    <option value="3112">0</option>
+    <option value="3113">0</option>
+    <option value="3114">0</option>
+  </select>
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
