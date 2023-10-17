@@ -1,0 +1,21 @@
+<html>
+    <body>
+    <script languaje="javascript" type="text/javascript">
+        function calculoIMC() {
+        var peso= Number(prompt("Ingreso peso"))
+        var altura= Number (prompt("Ingrese altura"))
+        var IMC= peso/(altura*altura);
+        if (IMC>30)
+            alert("Obesidad grado 2 IMC="+IMC);
+        else if (IMC>25)
+            alert("Obesidad grado 1 IMC="+IMC);
+        else if (IMC>17.9)
+            alert("Peso saludable IMC="+IMC);
+        else
+            alert("Debajo del peso="+IMC);         
+        }
+    </script>
+    <input type="button" onclick="calculoIMC()"
+        value="CalculoIMC"/>
+</body>
+</html>
